@@ -1,0 +1,414 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Prata&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Prata&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+body {
+  width: 1366px;
+  height: 100%;
+  font-family: roboto, sans-serif;
+  margin: auto;
+  overflow: scroll;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  background: #FDFDFB;
+  height: 855px;
+  position: relative;
+}
+
+.header {
+  width: 1366px;
+  height: 85px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 422px;
+}
+.header__logo {
+  font-family: Playfair;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 99px;
+}
+.header__icons__quantity {
+  position: absolute;
+  top: 30px;
+  left: 1190px;
+  border: 1px solid #E6C8B4;
+  background-color: #E6C8B4;
+  border-radius: 50%;
+  height: 13px;
+  width: 13px;
+  font-size: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container2 {
+  position: relative;
+  width: 1366px;
+  height: 768px;
+  background-image: url(../source/backgroud-img1.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.container2 .price1 {
+  position: absolute;
+  left: 583px;
+  top: 223px;
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1B1A17;
+}
+.container2 .watch_main {
+  position: absolute;
+  left: 662px;
+  top: -10px;
+}
+.container2 .watch_char {
+  position: absolute;
+  left: 1130px;
+  top: 721px;
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1B1A17;
+}
+
+.line {
+  width: 100%;
+  position: relative;
+}
+.line__1 {
+  width: 50px;
+  height: 0;
+  border: 1px solid #8B8371;
+  position: absolute;
+  left: 120px;
+  top: 357px;
+}
+.line__2 {
+  width: 50px;
+  height: 0;
+  border: 1px solid #8B8371;
+  position: absolute;
+  left: 673px;
+  top: 233px;
+}
+.line__3 {
+  width: 50px;
+  height: 0;
+  border: 1px solid #8B8371;
+  position: absolute;
+  left: 1065px;
+  top: 731px;
+}
+
+.textBox {
+  position: absolute;
+  left: 185px;
+  top: 321px;
+}
+.textBox__content {
+  height: 296px;
+  width: 343px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: flex-start;
+  justify-content: space-between;
+}
+.textBox__content__title {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 60px;
+  color: #1B1A17;
+}
+.textBox__content__text1 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  color: #1B1A17;
+}
+.textBox__content__text2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: rgba(27, 26, 23, 0.82);
+}
+.textBox__content__button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: #444240;
+  width: 205px;
+  height: 64px;
+  text-align: center;
+  padding-top: 26px;
+  color: #FFFFFF;
+}
+
+.screen2 {
+  width: 1366px;
+  height: 720px;
+  position: relative;
+}
+.screen2__info1 {
+  position: absolute;
+  left: 138px;
+  top: 575px;
+  display: flex;
+  justify-content: space-between;
+  width: 140px;
+  align-items: center;
+  align-content: center;
+}
+.screen2__info1__line {
+  height: 0;
+  width: 30px;
+  border: 1px solid #8B8371;
+}
+.screen2__info1__text {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1B1A17;
+}
+.screen2__info2 {
+  position: absolute;
+  left: 538px;
+  top: 575px;
+  display: flex;
+  justify-content: space-between;
+  width: 140px;
+  align-items: center;
+  align-content: center;
+}
+.screen2__info2__line {
+  height: 0;
+  width: 30px;
+  border: 1px solid #8B8371;
+}
+.screen2__info2__text {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1B1A17;
+}
+.screen2__info3 {
+  position: absolute;
+  left: 938px;
+  top: 575px;
+  display: flex;
+  justify-content: space-between;
+  width: 140px;
+  align-items: center;
+  align-content: center;
+}
+.screen2__info3__line {
+  height: 0;
+  width: 30px;
+  border: 1px solid #8B8371;
+}
+.screen2__info3__text {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1B1A17;
+}
+.screen2__title {
+  height: 115px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  vertical-align: bottom;
+}
+.screen2__title__text {
+  padding-top: 79px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 43px;
+  color: #1B1A17;
+}
+.screen2__showcase {
+  height: 720px;
+  display: flex;
+  justify-content: center;
+}
+.screen2__showcase__container {
+  width: 1178px;
+  margin-top: 52px;
+  display: flex;
+  justify-content: space-between;
+}
+.screen2__showcase__container__content {
+  background: #FDFDFB;
+  width: 370px;
+  height: 467px;
+  display: flex;
+  flex-direction: column;
+}
+.screen2__showcase__container__content__box {
+  margin: 40px 0 0 28px;
+}
+.screen2__showcase__container__content__box__name {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(27, 26, 23, 0.82);
+}
+.screen2__showcase__container__content__box__price {
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(27, 26, 23, 0.82);
+}
+.screen2__showcase__container__content__box__watch1 {
+  height: 313px;
+  width: 313px;
+  filter: drop-shadow(2px 2px 10px rgba(85, 82, 72, 0.23));
+  background-image: url(../source/watch-background.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.screen2__showcase__container__content__box__watch2 {
+  height: 313px;
+  width: 313px;
+  filter: drop-shadow(2px 2px 10px rgba(92, 92, 80, 0.23));
+  background-image: url(../source/watch-background.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.screen2__showcase__container__content__box__watch3 {
+  height: 313px;
+  width: 313px;
+  filter: drop-shadow(2px 2px 10px rgba(85, 82, 72, 0.23));
+  background-image: url(../source/watch-background.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.screen3 {
+  height: 468px;
+  width: 100%;
+  background: #f7f5ef;
+  background: linear-gradient(to right, #f7f5ef 0%, #f7f5ef 34%, #fdfdfb 34%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#f7f5ef", endColorstr="#fdfdfb",GradientType=1 );
+}
